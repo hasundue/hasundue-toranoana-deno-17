@@ -17,7 +17,7 @@ date: 2024-07-31
 ### 気ままに色々作ってます
 
 - denopendabot ★40 - Dependabot for Deno projects
-- **molt         ★63 - Update dependencies the Deno way**
+- molt         ★63 - Update dependencies the Deno way
 - molt-action  ★ 8 - GitHub Action for molt
 - amber        ★ 8 - Mocking Deno APIs with ease
 - ...
@@ -77,8 +77,6 @@ if (!res.redirected) {
 }
 return res.url;
 ```
-
-結果:
 
 ```typescript
 "https://deno.land/std@0.224.0/bytes/copy.ts"
@@ -145,7 +143,7 @@ return res.url;
     - 固定 (`0.1.0`)
     - 範囲 (`^0.1.0`, `~0.1.0`, ...)
 
-全部対応！
+全部対応！(たぶんまだ不安定)
 
 ### イチオシ
 
@@ -158,3 +156,17 @@ return res.url;
 ---
 
 ## まとめ
+
+[**Molt CLI**](https://jsr.io/@molt/cli)
+
+[**Molt GitHub Action**](https://github.com/hasundue/molt-action)
+
+Issue や PR お待ちしてます
+
+### 今後の展望
+
+- 安定化
+- ドキュメントの充実
+
+
+(本体に `deno update` 入らないのかな…)
